@@ -3,11 +3,11 @@
 function thanos($nbr){
 
 
-
     while ($nbr >= 1){
 
 
-        echo $nbr/2 . "\n";
+        echo $nbr . "\n";
+        $nbr = $nbr / 2;
 
         
     }
